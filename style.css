@@ -1,0 +1,61 @@
+* {margin-left: 5px;
+margin-top: 10px;
+margin-bottom: 10px;}
+:not(h1, h3) {
+    font-size: 20px;
+}
+@media (max-width: 800px) {
+    code {font-size: 10px;}
+}
+  
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+#wr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+#s {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 0 3px green, 0 0 13px #333; /* Параметры теней */
+    position: fixed;
+    right: 4px; bottom: 4px;   
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+}
+#c{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   text-align: left;
+  
+}
+ul{text-align: left;}
+body {
+    background-color: khaki;
+}
+a {
+    color: #000000; 
+  }
