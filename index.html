@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>cv</title>
-  </head>
+</head>
+<body>
+    <div  id="fixed">
+                     <a href="#top">
+                         <img class="s" src="img/dvi.jpeg" alt="Альтернативный текст" width="25" height="25" />
+                     </a>
+     </div>
+    <div class="wrapper">
+        <main>
+            <div class="column1">
+                <aside>
+                <img class="s" src="img/Polish_20210302_001139596.jpg" alt="Альтернативный текст">
+                <h3>Contacts</h3>
+                   
+                    <ul class="contacts">
+                        <li class="tel"><img class='ico' src="img/tel.webp" alt="tel"><p> +375 25 618-61-46</p></li>
+                        <li><img class='ico' src="img/letter.png" alt="email"> <p>velheor24@gmail.ru</p></li>
+                        <li><img class='ico' src="img/geo.jpg" alt="location"><p> Belarus</p></li>
+                    </ul>
+            </aside>
+                
+            </div>
+            <div class="column2">
+               
+                <header id="top"> 
+                    <h1>Abibok Viktor </h1> 
+                    <p>want to be a programmer</p>
 
-  <body>
-    <header id="top">
-      <nav>
-        <a href="#about" >About</a>
-        <a href="#summary" >Summary</a>
-        <a href="#skills" >Skills</a>
-        <a href="#code-example" >Code example</a>
-        <a href="#education" >Education</a>
-        <a href="#english" >English</a>
-       
-      </nav>
-    </header>
+                   
+                </header>
+                <section id="summary">
+                    <h3>About</h3>
+                    <p>
+                        I want to change my current job and become a programmer. One of my
+                        strong points is probably optimism, which allows me to believe
+                        that everything will work out and not give up. Unfortunately, I am
+                        still just learning and work experience that I could not have, but
+                        I can say that I have the desire and ability to learn quickly and
+                        learn new things.
+                    </p>
+                </section>
+                <section id="skills">
+                    <h3>Skills</h3>
 
-    <main>
-      <h1 >CV</h1>
-      <div><a href="#top"><img id="s" src="img/dvi.jpeg" alt="Альтернативный текст" width="25" height="25" /></a></div>
-      <section id="about">
-        <div id="wr">
-          <img src="img/nic.jpeg" alt="Альтернативный текст" width="402" height="502" />
-          <div><h3>About</h3>
-            <p>
-              Hi, I`m Viktor Abibok
-            </p>
-            <ul class="contacts">
-              <li class="tel">tel: +375 25 618-61-46</li>
-              <li>
-                <a class="mail" href="mailto:velheor24@gmail.com">mail: velheor24@gmail.ru</a >
-              </li>
-            </ul>
-         </div>
-        </div>
-      </section>
-      <section id="summary">
-        <h3>Summary</h3>
-        <p>
-          I want to change my current job and become a programmer. One of my
-          strong points is probably optimism, which allows me to believe that
-          everything will work out and not give up. Unfortunately, I am still
-          just learning and work experience that I could not have, but I can say
-          that I have the desire and ability to learn quickly and learn new
-          things.
-        </p>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        
-          During preparation for the course:
-          <ul>
-            <li>received basic knowledge of the basics of OOP and basic data structures and their organization</li>
-            <li>learned how to implement simple algorithms in the Javascript language and studied basic sorting and search algorithms.</li>
-            <li>Learned the basics of working with the command line IDE Visual studio code and the basics of working with GIT</li>
-          </ul>
-        
-      </section>
-      <section id="code-exampl">
-        <h3>Сode examples</h3>
-        <pre>
+                    During preparation for the course:
+                    <ul>
+                        <li>
+                            received basic knowledge of the basics of OOP and basic data
+                            structures and their organization
+                        </li>
+                        <li>
+                            learned how to implement simple algorithms in the Javascript
+                            language and studied basic sorting and search algorithms.
+                        </li>
+                        <li>
+                            Learned the basics of working with the command line IDE Visual
+                            studio code and the basics of working with GIT
+                        </li>
+                    </ul>
+                </section>
+                <section id="code-exampl">
+                    <h3>Сode examples</h3>
+                    <pre>
           <code id="c">function filterRange(arr, a, b) {  
   return arr.filter(item =&gt; (a &lt;= item &amp;&amp; item &lt;= b));
 } 
@@ -77,25 +82,29 @@ alert( filtered );
 alert( arr ); 
           </code>
         </pre>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <p>
-          Graduated from Brest State University with a degree in technical
-          maintenance of vehicles
-        </p>
-      </section>
-      <section id="english">
-        <h3>English</h3>
-        <p>
-          level of English at the pre-intermediate level
-        </p>
-      </section>
-    </main>
-    <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
+                </section>
+                <section id="education">
+                    <h3>Education</h3>
+                    <p>
+                        Graduated from Brest State University with a degree in technical
+                        maintenance of vehicles
+                    </p>
+                </section>
+                <section id="english">
+                    <h3>English</h3>
+                    <p>I have English at the pre-intermediate level</p>
+                </section>
+            </div>
+        </main>
 
-  </body>
+        <footer>
+           <div class="footer_ico">
+              <a href="https://github.com/iGrekInLapland">  <img class="ico" src="img/git_ico.png" alt="GIT"></a>
+               <a href="https://rs.school/js/">  <img src="img/rs_school_js.svg" alt="rss" height=32></a>
+            </div> 
+            <p>Created in 2021 by iGrekInLapland</p>
+        </footer>
+    </div>
+</body>
+
 </html>
-
