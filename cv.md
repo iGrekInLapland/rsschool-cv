@@ -7,7 +7,7 @@ Viktor Abibok
 * phone: +375 25 618 61 46
 ## 3 Brief information
 * Goals - at the moment my goal is to pass stage1.
-* Strengths - the desire to learn and grow above yourself.
+* Strengths - the desire to learn and grow above myself.
 * Work experience - I have no work experience in the field of IT.
 ## 4 Skills
 * HTML - in progress...
